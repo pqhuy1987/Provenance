@@ -1,0 +1,128 @@
+# Provenance
+An iOS & tvOS Frontend for multiple emulators
+
+###Building Provenance
+[See the instructions on the wiki](https://github.com/jasarien/Provenance/wiki/Building-Provenance) and follow them _to the letter_. Any issues raised that clearly demonstrate that the instructions haven't been followed will be closed.
+
+###Why 'Provenance'?
+
+I was looking for a word with a similar meaning to Genesis and came across Provenance:
+
+> prov·e·nance  
+> */ˈprävənəns/*  
+> **Noun**  
+> > The beginning of something's existence; something's origin.
+
+###Systems currently supported by Provenance:
+
+- Sega
+    - SG-1000
+    - Master System
+    - Genesis / Mega Drive
+    - MegaCD [See wiki](https://github.com/jasarien/Provenance/wiki/Sega-MegaCD-Instructions)
+    - Game Gear
+- Nintendo
+    - NES (Nintendo Entertainment System)
+    - Famicom Disk System [See Wiki](https://github.com/jasarien/Provenance/wiki/Famicom-Disk-System-Instructions)
+    - SNES (Super Nintendo)
+    - Gameboy / Gameboy Color
+    - Gameboy Advance
+
+###Features
+
+- Very accurate & full speed emulation
+- Stereo sound
+- Save States
+- Battery saves (native game saves, i.e. Sonic 3, Pokémon, etc)
+- Adjust onscreen control opacity so they don't get in your way
+- Portrait and landscape support
+- Supports all [MFi game controllers](https://mficontrollers.afterpad.com/), and some iCade Controllers
+- Local multiplayer with external controllers
+- Built-in web server
+    - Import/Export game saves
+    - Import/Export ROMs
+- "Open In..." support
+    - Download a ROM using Mobile Safari and import it into Provenance
+- iTunes File Sharing
+    - Just drop ROMs into the app from iTunes on your Mac or PC
+- Uses [OpenVGDB](https://github.com/OpenVGDB/OpenVGDB) to look up game information and artwork
+    - OpenVGDB is a database maintained by the OpenEmu Team and automatically downloads available information and artwork
+    - Custom artwork is also supported
+- Game library searching
+- Supports iOS 8+
+    - 3D Touch shortcuts for recent games (iPhone 6s and later)
+    - Taptic Engine Feedback for button presses (iPhone 7 and later)
+- Supports Apple TV tvOS 9+
+    - TopShelf support [See instructions](https://github.com/jasarien/Provenance/pull/242)
+
+Feel free to suggest/request features using the Issues page, but please read all issues (open *and* closed) before raising new ones to avoid duplicates.
+
+###Importing ROMs
+[See the instructions on the wiki](https://github.com/jasarien/Provenance/wiki/Importing-ROMs)
+
+###Screenshots
+[Provenance Screenshots](http://jamesaddyman.com/provenance/screenshots)
+
+#Contributor Discussion
+If you're a contributor, or would like to contribute, there is a developer-focussed Slack at [provenance-dev.slack.com](http://provenance-dev.slack.com). Request an invite to join the conversation.
+
+#Attributions
+
+Sega system emulation is provided by [Genesis Plus GX](https://bitbucket.org/eke/genesis-plus-gx/), originally written by Charles Mac Donald, and later improved by Eke-Eke.
+
+NES/Famicom Disk System emulation is provided by [FCEUX](http://www.fceux.com/web/home.html).
+
+SNES (Super Nintendo) emulation is provided by [SNES9x](http://www.snes9x.com).
+
+Gameboy Advance emulation is provided by [Visualboy Advance](http://sourceforge.net/projects/vba/).
+
+Gameboy/Gameboy Color emulation is provided by [Gambatte](http://gambatte.sourceforge.net/).
+
+The specific implementations used in Provenance are loosely based on some of the work done by [OpenEmu](http://openemu.org) [(source)](http://github.com/OpenEmu) and [RetroArch](http://www.libretro.com) [(source)](https://github.com/libretro/RetroArch).
+
+#Provenance License
+
+Copyright (c) 2016, James Addyman (JamSoft). All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the Provenance project nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY JAMES ADDYMAN (JAMSOFT) "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JAMES ADDYMAN (JAMSOFT) OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the
+authors and should not be interpreted as representing official policies, either expressed
+or implied, of James Addyman (JamSoft).
+
+#OpenEmu License
+
+Copyright (c) 2016, OpenEmu Team
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+- Neither the name of the OpenEmu Team nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY OpenEmu Team ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL OpenEmu Team BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
