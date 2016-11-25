@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0810"
-   version = "1.3">
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A3A74E71ABF11AC002274A3"
-               BuildableName = "libPVNES.a"
-               BlueprintName = "PVNES"
-               ReferencedContainer = "container:PVNES.xcodeproj">
+               BlueprintIdentifier = "BE9FDCB61C210B9E0046DF0E"
+               BuildableName = "TopShelf.appex"
+               BlueprintName = "TopShelf"
+               ReferencedContainer = "container:Provenance.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1AD481B31BA350A400FDA50A"
+               BuildableName = "Provenance.app"
+               BlueprintName = "ProvenanceTV"
+               ReferencedContainer = "container:Provenance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +46,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3A74E71ABF11AC002274A3"
-            BuildableName = "libPVNES.a"
-            BlueprintName = "PVNES"
-            ReferencedContainer = "container:PVNES.xcodeproj">
+            BlueprintIdentifier = "BE9FDCB61C210B9E0046DF0E"
+            BuildableName = "TopShelf.appex"
+            BlueprintName = "TopShelf"
+            ReferencedContainer = "container:Provenance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -43,23 +57,25 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
-      <MacroExpansion>
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3A74E71ABF11AC002274A3"
-            BuildableName = "libPVNES.a"
-            BlueprintName = "PVNES"
-            ReferencedContainer = "container:PVNES.xcodeproj">
+            BlueprintIdentifier = "1AD481B31BA350A400FDA50A"
+            BuildableName = "Provenance.app"
+            BlueprintName = "ProvenanceTV"
+            ReferencedContainer = "container:Provenance.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -68,16 +84,18 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3A74E71ABF11AC002274A3"
-            BuildableName = "libPVNES.a"
-            BlueprintName = "PVNES"
-            ReferencedContainer = "container:PVNES.xcodeproj">
+            BlueprintIdentifier = "1AD481B31BA350A400FDA50A"
+            BuildableName = "Provenance.app"
+            BlueprintName = "ProvenanceTV"
+            ReferencedContainer = "container:Provenance.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

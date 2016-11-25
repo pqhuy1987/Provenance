@@ -473,8 +473,6 @@
 		BED8C0151D6ED36300742D04 /* scale3x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED8BFFD1D6ED36300742D04 /* scale3x.cpp */; };
 		BED8C0161D6ED36300742D04 /* scalebit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED8BFFF1D6ED36300742D04 /* scalebit.cpp */; };
 		BED8C0171D6ED36300742D04 /* scalebit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED8BFFF1D6ED36300742D04 /* scalebit.cpp */; };
-		BED8C0181D6ED36300742D04 /* vidblit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED8C0021D6ED36300742D04 /* vidblit.cpp */; };
-		BED8C0191D6ED36300742D04 /* vidblit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED8C0021D6ED36300742D04 /* vidblit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1373,7 +1371,7 @@
 		1A3A74E01ABF11AC002274A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = JamSoft;
 				TargetAttributes = {
 					1A3A74E71ABF11AC002274A3 = {
@@ -1619,7 +1617,6 @@
 				1A3A79471ABF16A5002274A3 /* mahjong.cpp in Sources */,
 				BED8BEFC1D6ECD7500742D04 /* 177.cpp in Sources */,
 				BED8BEB41D6ECD7500742D04 /* 46.cpp in Sources */,
-				BED8C0181D6ED36300742D04 /* vidblit.cpp in Sources */,
 				BED8BF661D6ECD7500742D04 /* fk23c.cpp in Sources */,
 				1A3A79891ABF16A5002274A3 /* xstring.cpp in Sources */,
 				BED8BFD41D6ECD7500742D04 /* vrc7p.cpp in Sources */,
@@ -1857,7 +1854,6 @@
 				1AD483E61BA3641200FDA50A /* mahjong.cpp in Sources */,
 				BED8BEFD1D6ECD7500742D04 /* 177.cpp in Sources */,
 				BED8BEB51D6ECD7500742D04 /* 46.cpp in Sources */,
-				BED8C0191D6ED36300742D04 /* vidblit.cpp in Sources */,
 				BED8BF671D6ECD7500742D04 /* fk23c.cpp in Sources */,
 				1AD483E91BA3641200FDA50A /* xstring.cpp in Sources */,
 				BED8BFD51D6ECD7500742D04 /* vrc7p.cpp in Sources */,
